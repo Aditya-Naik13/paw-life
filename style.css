@@ -1,0 +1,79 @@
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+}
+.Head {
+  color: black;
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+  padding: 15px;
+  border: black;
+  border-left: 1rem;
+  border-right: 1rem;
+}
+.Head h1 {
+  font-family: "Gloock", serif;
+  color: white;
+  font-size: 50px;
+}
+.Head h3 {
+  font-weight: light;
+  color: white;
+}
+nav {
+  background-color: black;
+}
+.headings h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.pets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pets ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.pets ul a {
+  padding: 25px;
+}
+img {
+  max-width: 200px;
+  border-radius: 100%;
+  padding: 30px;
+}
+.cards {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  text-align: center;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.card h5 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.card h3 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
